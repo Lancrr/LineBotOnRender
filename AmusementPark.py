@@ -12,7 +12,7 @@ import os
 line_bot_api = LineBotApi(os.environ.get('Channel_Access_Token'))
 handler = WebhookHandler(os.environ.get('Channel_Secret'))
 
-liffid = '2006619732-W6KPaZ1p'
+liffid = '2006619732-K4km2Me1'
 
 #LIFF靜態頁面
 @app.route('/page')
